@@ -1,6 +1,6 @@
 # LoRA Adaptation for Stable Diffusion Using Docker
 
-This README serves as a comprehensive guide for understanding, implementing, and evaluating the LoRA-adapted Stable Diffusion model using Docker. For detailed instructions and insights, refer to the respective sections in the pdf documentation.
+This README serves as a comprehensive guide for understanding, implementing, and evaluating the LoRA-adapted Stable Diffusion model using Docker. For detailed instructions and insights, refer to the respective sections in the pdf documentation: Documentation_Stable_Diffusion_LoRA_Project.pdf.
 
 ## Overview
 This project focuses on adapting the Stable Diffusion model through LoRA integration using Docker. The adaptation aims to enhance the generation of images based on textual prompts. This README provides an extensive guide on utilizing and understanding the adapted model.
