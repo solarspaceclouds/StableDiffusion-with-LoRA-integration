@@ -5,6 +5,9 @@ This README serves as a comprehensive guide for understanding, implementing, and
 ## Overview
 This project focuses on adapting the Stable Diffusion model through LoRA integration using Docker. The adaptation aims to enhance the generation of images based on textual prompts. This README provides an extensive guide on utilizing and understanding the adapted model.
 
+## Quick Demo
+**landscape.ipynb** and **single_object.ipynb** explore Single LoRa and multiple LoRA integration with Stable Diffusion model
+
 ## Files and Folders
 ### Files
 config.yaml: Configuration file for base_model and LoRAs.
@@ -14,7 +17,6 @@ landscape.ipynb: Jupyter notebook for demo with the prompt "A beautiful sky".
 single_object.ipynb: Jupyter notebook for demo with the prompt "A green pokemon with blue eyes".
 Evaluation_img_generation.ipynb: Jupyter notebook for evaluating generated images.
 
-landscape.ipynb and single_object.ipynb explore Single LoRa and multiple LoRA integration with Stable Diffusion model
 
 ### Folders
 base_model: Contains the Stable diffusion + LoRA integration model class.
@@ -39,6 +41,14 @@ The process includes loading LoRA weights, parameter adjustments, and image gene
 
 ## LoRA Integration Results
 Integration results for single and multiple LoRAs are discussed. It's noted that including LoRA tags in text prompts generally improves results.
+
+### Examples:
+"A green pokemon with blue eyes", pixel LoRA:
+
+![basepixel](https://github.com/solarspaceclouds/StableDiffusion-with-LoRA-integration/assets/65459827/905542d6-ac57-4891-a781-5e8972c5e0bf)
+
+"A beautiful sky", easter and jellyfish forest LoRA
+![easter jellyfishforest](https://github.com/solarspaceclouds/StableDiffusion-with-LoRA-integration/assets/65459827/56bd6ce4-bf4c-4f2e-96c9-10e3d369c1ac)
 
 ## Parameter Adjustments: StableDifusionPipeline
 Key parameters include: text prompt, num_inference_steps, and guidance_scale. 
@@ -75,5 +85,5 @@ docker run --gpus all -v $(pwd)/generated_images:/app/generated_images stable-di
 ```
 
 ## Evaluation Strategy for the Adapted Model
-Comprehensive evaluation strategies, including qualitative and quantitative approaches, are detailed. This includes assessing visual quality, creativity, automated metrics, stability, and scalability.
+Comprehensive evaluation strategies, including qualitative (creativity/novelty, visual quality) and quantitative (Inception Score) approaches, are detailed in the documentation and **evaluate_img_generation.ipynb** notebook.
 
