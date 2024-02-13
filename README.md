@@ -57,7 +57,7 @@ Key parameters include: text prompt, num_inference_steps, and guidance_scale.
 Optimal balance requires experimentation.
 
 ## Running the Code
-1. Download LoRAs in safetensor format and save them to LoRAs folder in the current directory
+1. Download LoRAs in **safetensors** format and save them to LoRAs folder in the current directory
 2. Instructions for setting up the environment and running the code via examples are provided.
    Refer to config.yaml for the
 - List of base_models (currently only 1): runwayml/stable-diffusion-v1-5
