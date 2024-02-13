@@ -48,6 +48,7 @@ Integration results for single and multiple LoRAs are discussed. It's noted that
 ![basepixel](https://github.com/solarspaceclouds/StableDiffusion-with-LoRA-integration/assets/65459827/905542d6-ac57-4891-a781-5e8972c5e0bf)
 
 "A beautiful sky", easter and jellyfish forest LoRA
+
 ![easter jellyfishforest](https://github.com/solarspaceclouds/StableDiffusion-with-LoRA-integration/assets/65459827/56bd6ce4-bf4c-4f2e-96c9-10e3d369c1ac)
 
 ## Parameter Adjustments: StableDifusionPipeline
