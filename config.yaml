@@ -1,0 +1,35 @@
+base_model:
+  - model_name: "runwayml/stable-diffusion-v1-5"
+    torch_dtype: "float16"
+    device: "cuda"
+
+loras:
+  - name: "easter_egg"
+    lora_weights_path: "LoRAs/easter-fusion-v2.safetensors"
+    fuse_lora_scale: 1.0
+    default_prompt: "easter, A pokemon with blue eyes" # first element is the trigger word
+    tag: "easter"
+
+  - name: "jellyfish_forest"
+    lora_weights_path: "LoRAs/jellyfish-forest.safetensors"
+    fuse_lora_scale: 1.0
+    default_prompt: "jellyfish forest, A blue sky and small ground anmials" # first element is the trigger word
+    tag: "jellyfishforest"
+
+  - name: "basepixel"
+    lora_weights_path: "LoRAs/basepixel-20.safetensors"
+    fuse_lora_scale: 1.0
+    default_prompt: "BASEPIXEL, mystical sky landscape" # first element is the trigger word
+    tag: "basepixel"
+
+  - name: "moxinstyle"
+    lora_weights_path: "LoRAs/MoXinStyle.safetensors"
+    fuse_lora_scale: 1.0
+    default_prompt: "majestic mountain landscape and bamboo"
+    tag: "SHUIMOBYSIM WUCHANGSHUO BONIAN ZHENBANQIAO BADASHANREN"
+
+  - name: "wanostyle"
+    lora_weights_path: "LoRAs/wanostyle_2_offset.safetensors"
+    fuse_lora_scale: 1.0
+    default_prompt: "young boy flying a kite"
+    tag: "wanostyle"
