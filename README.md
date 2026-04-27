@@ -1,6 +1,6 @@
-# LoRA Adaptation for Stable Diffusion Using Docker
+# LoRA Adaptation for Stable Diffusion Containerized with Docker
 
-This README serves as a comprehensive guide for understanding, implementing, and evaluating the LoRA-adapted Stable Diffusion model using Docker. For detailed instructions and insights, refer to the respective sections in the pdf documentation: **Documentation_Stable_Diffusion_LoRA_Project.pdf.**
+This README serves as a comprehensive guide for understanding, implementing, and evaluating the LoRA-adapted Stable Diffusion model with Docker containerization. For detailed instructions and insights, refer to the respective sections in the pdf documentation: **Documentation_Stable_Diffusion_LoRA_Project.pdf.**
 
 Check out my Medium article here: 
 https://medium.com/@weimaychen2/revolutionizing-digital-creativity-harnessing-lora-adapted-stable-diffusion-within-docker-for-3f0419c6612e
